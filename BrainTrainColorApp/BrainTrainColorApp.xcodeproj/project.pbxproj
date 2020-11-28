@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D81020792572BCCF00B4E90E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81020782572BCCF00B4E90E /* AppDelegate.swift */; };
+		D810207B2572BCCF00B4E90E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D810207A2572BCCF00B4E90E /* SceneDelegate.swift */; };
+		D810207D2572BCCF00B4E90E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D810207C2572BCCF00B4E90E /* ViewController.swift */; };
+		D81020802572BCCF00B4E90E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D810207E2572BCCF00B4E90E /* Main.storyboard */; };
+		D81020822572BCD100B4E90E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81020812572BCD100B4E90E /* Assets.xcassets */; };
+		D81020852572BCD100B4E90E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81020832572BCD100B4E90E /* LaunchScreen.storyboard */; };
+		D81020902572BCD100B4E90E /* BrainTrainColorAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D810208F2572BCD100B4E90E /* BrainTrainColorAppTests.swift */; };
+		D810209B2572BCD100B4E90E /* BrainTrainColorAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D810209A2572BCD100B4E90E /* BrainTrainColorAppUITests.swift */; };
+		D81020AC2572C5A700B4E90E /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81020AB2572C5A700B4E90E /* GameModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D810208C2572BCD100B4E90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D810206D2572BCCF00B4E90E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81020742572BCCF00B4E90E;
+			remoteInfo = BrainTrainColorApp;
+		};
+		D81020972572BCD100B4E90E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D810206D2572BCCF00B4E90E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D81020742572BCCF00B4E90E;
+			remoteInfo = BrainTrainColorApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D81020752572BCCF00B4E90E /* BrainTrainColorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTrainColorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81020782572BCCF00B4E90E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D810207A2572BCCF00B4E90E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D810207C2572BCCF00B4E90E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D810207F2572BCCF00B4E90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D81020812572BCD100B4E90E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D81020842572BCD100B4E90E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D81020862572BCD100B4E90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D810208B2572BCD100B4E90E /* BrainTrainColorAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTrainColorAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D810208F2572BCD100B4E90E /* BrainTrainColorAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTrainColorAppTests.swift; sourceTree = "<group>"; };
+		D81020912572BCD100B4E90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81020962572BCD100B4E90E /* BrainTrainColorAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainTrainColorAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D810209A2572BCD100B4E90E /* BrainTrainColorAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTrainColorAppUITests.swift; sourceTree = "<group>"; };
+		D810209C2572BCD100B4E90E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81020AB2572C5A700B4E90E /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D81020722572BCCF00B4E90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81020882572BCD100B4E90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81020932572BCD100B4E90E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D810206C2572BCCF00B4E90E = {
+			isa = PBXGroup;
+			children = (
+				D81020772572BCCF00B4E90E /* BrainTrainColorApp */,
+				D810208E2572BCD100B4E90E /* BrainTrainColorAppTests */,
+				D81020992572BCD100B4E90E /* BrainTrainColorAppUITests */,
+				D81020762572BCCF00B4E90E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D81020762572BCCF00B4E90E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D81020752572BCCF00B4E90E /* BrainTrainColorApp.app */,
+				D810208B2572BCD100B4E90E /* BrainTrainColorAppTests.xctest */,
+				D81020962572BCD100B4E90E /* BrainTrainColorAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D81020772572BCCF00B4E90E /* BrainTrainColorApp */ = {
+			isa = PBXGroup;
+			children = (
+				D81020782572BCCF00B4E90E /* AppDelegate.swift */,
+				D810207A2572BCCF00B4E90E /* SceneDelegate.swift */,
+				D810207C2572BCCF00B4E90E /* ViewController.swift */,
+				D810207E2572BCCF00B4E90E /* Main.storyboard */,
+				D81020812572BCD100B4E90E /* Assets.xcassets */,
+				D81020832572BCD100B4E90E /* LaunchScreen.storyboard */,
+				D81020862572BCD100B4E90E /* Info.plist */,
+				D81020AB2572C5A700B4E90E /* GameModel.swift */,
+			);
+			path = BrainTrainColorApp;
+			sourceTree = "<group>";
+		};
+		D810208E2572BCD100B4E90E /* BrainTrainColorAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				D810208F2572BCD100B4E90E /* BrainTrainColorAppTests.swift */,
+				D81020912572BCD100B4E90E /* Info.plist */,
+			);
+			path = BrainTrainColorAppTests;
+			sourceTree = "<group>";
+		};
+		D81020992572BCD100B4E90E /* BrainTrainColorAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D810209A2572BCD100B4E90E /* BrainTrainColorAppUITests.swift */,
+				D810209C2572BCD100B4E90E /* Info.plist */,
+			);
+			path = BrainTrainColorAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D81020742572BCCF00B4E90E /* BrainTrainColorApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D810209F2572BCD100B4E90E /* Build configuration list for PBXNativeTarget "BrainTrainColorApp" */;
+			buildPhases = (
+				D81020712572BCCF00B4E90E /* Sources */,
+				D81020722572BCCF00B4E90E /* Frameworks */,
+				D81020732572BCCF00B4E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainTrainColorApp;
+			productName = BrainTrainColorApp;
+			productReference = D81020752572BCCF00B4E90E /* BrainTrainColorApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D810208A2572BCD100B4E90E /* BrainTrainColorAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81020A22572BCD100B4E90E /* Build configuration list for PBXNativeTarget "BrainTrainColorAppTests" */;
+			buildPhases = (
+				D81020872572BCD100B4E90E /* Sources */,
+				D81020882572BCD100B4E90E /* Frameworks */,
+				D81020892572BCD100B4E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D810208D2572BCD100B4E90E /* PBXTargetDependency */,
+			);
+			name = BrainTrainColorAppTests;
+			productName = BrainTrainColorAppTests;
+			productReference = D810208B2572BCD100B4E90E /* BrainTrainColorAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D81020952572BCD100B4E90E /* BrainTrainColorAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D81020A52572BCD100B4E90E /* Build configuration list for PBXNativeTarget "BrainTrainColorAppUITests" */;
+			buildPhases = (
+				D81020922572BCD100B4E90E /* Sources */,
+				D81020932572BCD100B4E90E /* Frameworks */,
+				D81020942572BCD100B4E90E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D81020982572BCD100B4E90E /* PBXTargetDependency */,
+			);
+			name = BrainTrainColorAppUITests;
+			productName = BrainTrainColorAppUITests;
+			productReference = D81020962572BCD100B4E90E /* BrainTrainColorAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D810206D2572BCCF00B4E90E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					D81020742572BCCF00B4E90E = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					D810208A2572BCD100B4E90E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = D81020742572BCCF00B4E90E;
+					};
+					D81020952572BCD100B4E90E = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = D81020742572BCCF00B4E90E;
+					};
+				};
+			};
+			buildConfigurationList = D81020702572BCCF00B4E90E /* Build configuration list for PBXProject "BrainTrainColorApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D810206C2572BCCF00B4E90E;
+			productRefGroup = D81020762572BCCF00B4E90E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D81020742572BCCF00B4E90E /* BrainTrainColorApp */,
+				D810208A2572BCD100B4E90E /* BrainTrainColorAppTests */,
+				D81020952572BCD100B4E90E /* BrainTrainColorAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D81020732572BCCF00B4E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81020852572BCD100B4E90E /* LaunchScreen.storyboard in Resources */,
+				D81020822572BCD100B4E90E /* Assets.xcassets in Resources */,
+				D81020802572BCCF00B4E90E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81020892572BCD100B4E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81020942572BCD100B4E90E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D81020712572BCCF00B4E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D810207D2572BCCF00B4E90E /* ViewController.swift in Sources */,
+				D81020AC2572C5A700B4E90E /* GameModel.swift in Sources */,
+				D81020792572BCCF00B4E90E /* AppDelegate.swift in Sources */,
+				D810207B2572BCCF00B4E90E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81020872572BCD100B4E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81020902572BCD100B4E90E /* BrainTrainColorAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81020922572BCD100B4E90E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D810209B2572BCD100B4E90E /* BrainTrainColorAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D810208D2572BCD100B4E90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81020742572BCCF00B4E90E /* BrainTrainColorApp */;
+			targetProxy = D810208C2572BCD100B4E90E /* PBXContainerItemProxy */;
+		};
+		D81020982572BCD100B4E90E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D81020742572BCCF00B4E90E /* BrainTrainColorApp */;
+			targetProxy = D81020972572BCD100B4E90E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D810207E2572BCCF00B4E90E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D810207F2572BCCF00B4E90E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D81020832572BCD100B4E90E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D81020842572BCD100B4E90E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D810209D2572BCD100B4E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D810209E2572BCD100B4E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D81020A02572BCD100B4E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrainTrainColorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cottingham.dev.BrainTrainColorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D81020A12572BCD100B4E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrainTrainColorApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cottingham.dev.BrainTrainColorApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D81020A32572BCD100B4E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrainTrainColorAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cottingham.dev.BrainTrainColorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainTrainColorApp.app/BrainTrainColorApp";
+			};
+			name = Debug;
+		};
+		D81020A42572BCD100B4E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrainTrainColorAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cottingham.dev.BrainTrainColorAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainTrainColorApp.app/BrainTrainColorApp";
+			};
+			name = Release;
+		};
+		D81020A62572BCD100B4E90E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrainTrainColorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cottingham.dev.BrainTrainColorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainTrainColorApp;
+			};
+			name = Debug;
+		};
+		D81020A72572BCD100B4E90E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BrainTrainColorAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cottingham.dev.BrainTrainColorAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainTrainColorApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D81020702572BCCF00B4E90E /* Build configuration list for PBXProject "BrainTrainColorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D810209D2572BCD100B4E90E /* Debug */,
+				D810209E2572BCD100B4E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D810209F2572BCD100B4E90E /* Build configuration list for PBXNativeTarget "BrainTrainColorApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81020A02572BCD100B4E90E /* Debug */,
+				D81020A12572BCD100B4E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81020A22572BCD100B4E90E /* Build configuration list for PBXNativeTarget "BrainTrainColorAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81020A32572BCD100B4E90E /* Debug */,
+				D81020A42572BCD100B4E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D81020A52572BCD100B4E90E /* Build configuration list for PBXNativeTarget "BrainTrainColorAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D81020A62572BCD100B4E90E /* Debug */,
+				D81020A72572BCD100B4E90E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D810206D2572BCCF00B4E90E /* Project object */;
+}
